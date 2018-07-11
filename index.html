@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next gemini use-motion" lang="">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -53,16 +53,14 @@
 <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png?v=5.1.4">
 
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
 
 
@@ -74,21 +72,23 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="睡醒的兔子" type="application/atom+xml" />
 
 
 
 
 
-<meta name="description" content="每天分享优质的多媒体内容">
+
+<meta name="description" content="不定时分享娱乐内容">
 <meta property="og:type" content="website">
 <meta property="og:title" content="睡醒的兔子">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="https://lhldream.top/index.html">
 <meta property="og:site_name" content="睡醒的兔子">
-<meta property="og:description" content="每天分享优质的多媒体内容">
+<meta property="og:description" content="不定时分享娱乐内容">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="睡醒的兔子">
-<meta name="twitter:description" content="每天分享优质的多媒体内容">
+<meta name="twitter:description" content="不定时分享娱乐内容">
 
 
 
@@ -96,9 +96,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -118,7 +118,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="https://lhldream.top/"/>
 
 
 
@@ -137,6 +137,13 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
+
+ 
 
   
   
@@ -190,26 +197,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            About
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            Tags
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
@@ -229,11 +216,65 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
 
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
       
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
   
 </nav>
 
@@ -262,12 +303,336 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/03/2018-01-03-how-to-write/">
+    <link itemprop="mainEntityOfPage" href="https://lhldream.top/2018/07/11/2018-07-11-七言第一期/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Candy">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/favicon.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="睡醒的兔子">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/11/2018-07-11-七言第一期/" itemprop="url">七言第一期</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-07-11T11:33:12+08:00">
+                2018-07-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/人生/" itemprop="url" rel="index">
+                    <span itemprop="name">人生</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>烟波流转，流云翩跹，是你的微笑在我心海流连；青山如黛，绿水盈盈，是你的执著让我无悔等待；弦月冉冉，繁星点点，是你的温暖让我驻足今生。只因相识太美所以牵念一生，只为真心难觅所以无法忘怀。就让我携你手趟过千年的风霜雪雨，就让我陪你到地老天荒，日落星沉；执笔为你眷写沧海桑田，岁月轮回。</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/401facd0da2961e61c39aaaaaadcffbc-sz_30233.jpg?x-oss-process=style/xm" alt="img"></p>
+<p>静好的时光里，总是有一个人，渡你一生的回忆。有人说，一个人最好记性不要太好，因为回忆越多，幸福感越少。我期许，有爱的地方，便有美丽，便有温柔的阳光，空气和水。而在每个清晨，我第一眼的凝望的，就是窗前那抹最暖和的微光，那是我最美的祝福。</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/57a1a61eba660a5b979c85c45c6f52db-sz_32999.jpg?x-oss-process=style/xm" alt="img"></p>
+<p>因为有阳光，我的世界，风轻云淡，柔软纯白。时光静走，我终于明白，岁月静好，原来流年里的那些寂寞，那么满。谁的感伤也摧毁不了青春的高墙，有些人儿注定别离，相遇只是幻想，我们都不过是在对流年撒谎，因为寂寞很孤单，爱很简单，生活一直很平淡。而那些苍白的岁月里，那些不具名的寂寞，都是虚无荒诞的谎言。</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/cac42fa766b69a5fea587f2371b2ad75-sz_21494.jpg?x-oss-process=style/xm" alt="img"></p>
+<p>因为有你，所以不必寂寞，是的，那些寂寞，不过是卑微的情愫，因为最后，有人会陪我们一起看细水长流，并用用细碎的步子与我们一起奔跑，一直到天涯海角。那时候，我们会发现怀念不是唯一的寄托，期待不是唯一的承诺，哀伤是奢望的情感，但快乐却不是。只要心有所依，依旧岁月无恙。</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/e969baab8092ae36ff69817e8fda1483-sz_6793.jpg?x-oss-process=style/xm" alt="img"></p>
+<p>我相信，终会有一个人，会明白我内心的，那所有纯白与柔软，明白我的寂寞与一切不具名的情感，心疼我的心疼，并且会陪我一起看花开花谢，云起云归。如果可以，与时光对舞，我愿在这样温暖的时光里，任心若云归，年华静美，然后，慢慢老去。静静，听见花开的声音，听见，幸福的声音。衣破尘埃，破颜一笑，是清欢，亦是美好。</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/2790fd476e50da3a18e7259a23b55b19-sz_19857.jpg?x-oss-process=style/xm" alt="img"></p>
+<p>薄凉的声色里，也曾与时光邂逅，与寂寞有染，抹不去画地为牢的孤单，在流年的怀抱里，在空城里，闭上眼，静静沉睡，记忆里，那些生如夏花的绚烂焚尽，如秋叶静美而凋零。这世上，总有一些东西，不死，不老。那如诗如画的流年总会成就出一番隽永的味道。</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/35f7747a23ad64e2e59ca194462b9fce-sz_12439.jpg?x-oss-process=style/xm" alt="img"></p>
+<p>纵使人会老，但最诚挚的爱不会老去，我时常在想，如果变老，我们是不是，还会有当初，那最美的年华的美好。是不是，还能坦然的微笑。张爱玲说：“喜欢一个人，会卑微到尘埃里，然后开出花来。”生命中，总有些人，安然而来，静静守候，不离不弃；也有些人，浓烈如酒，疯狂似醉，却是醒来无处觅，来去都如风，梦过无痕。红尘芸芸，总会有人愿意，为我们卑微到尘埃里，那是我们一生的眷属。</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/0c8d594edcfb4d0b2488872fc6dece5e-sz_32399.jpg?x-oss-process=style/xm" alt="img"></p>
+<p>你若一直在，我便一直爱，不乱于心，不困于情，不畏将来，不念过往，如此，安好。我知道，时光会记得，那些始终如一，那些年华的美好，某些东西，深藏在心中，永远不会老去。你是我不停的追逐，你是我不舍的想念。花开，叶落。站在未来等你，站在过去思念。一曲筝音悠扬，在绵绵的月下流转；一缕清浅幽香，在轻盈的风里飘荡。就让我，倾此一生，沫你欢颜</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/e969baab8092ae36ff69817e8fda1483-sz_6793.jpg?x-oss-process=style/xm" alt="img"></p>
+<p>时光悠悠然飞逝，天际的月儿圆了又缺，也不知过了多少岁月。我就这样飘摇在这座城里，忘记了时间，也忘记了走出去。渐渐的，心里也就有了那么一座城，孤独堆砌起城墙，清冷构筑成屋舍。</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/499ffa379f20c6aa5ac1997747b330ac-sz_16918.jpg?x-oss-process=style/xm" alt="img"></p>
+<p>时光流逝，风卷着落叶在不经意间滑落，摇曳着深秋的寂寥。一场秋雨过后，北方的秋天以有了些许的寒意，万物都删繁就简起来，装点着着这一季的冷清。季节的转换间，总会演绎着繁华与落寂，而我们，就在这流年的急景中，看着过往匆匆，细数流年的悲喜，以一颗安然的心，沉淀着红尘的浮华。</p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/4f235b3c51d73c97798b864992270f18-sz_27491.jpg?x-oss-process=style/xm" alt="img"></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://lhldream.top/2018/07/11/2018-07-11-逗比老爸的逗比日常/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Candy">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/favicon.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="睡醒的兔子">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/11/2018-07-11-逗比老爸的逗比日常/" itemprop="url">逗比老爸的逗比日常</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-07-11T09:33:12+08:00">
+                2018-07-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/娱乐/" itemprop="url" rel="index">
+                    <span itemprop="name">娱乐</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/c878ab9256ff2a19f1a91ef089d39bdb-sz_7534.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/4445a4f9bb2de86b7a5dd2236c085957-sz_1894531.gif" alt="img"></p>
+<p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/30aa30b9ed17787bc2ba1b3cb51028c0-sz_9978.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/4ce86370801fd93b51b269a35bdce6f9-sz_1644713.gif" alt="img"></p>
+<p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/df97c695f16abf4b42f88dee9357bc52-sz_10020.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/d6e0e4c2024dd00ae88a027d59a9ae4f-sz_1597306.gif" alt="img"></p>
+<p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/d935b1e4731a1e52fcb839dd48e48d36-sz_11465.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/5d7654c642fd24b082c0874780c16882-sz_1596833.gif" alt="img"></p>
+<p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/c775145f62299885049d742655ae0fd3-sz_5807.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/54d71182226935b8e0f8922a9c8c5e19-sz_1590288.gif" alt="img"></p>
+<p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/c8c9d0bd1400718af8d6504fd74a937c-sz_6361.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/01369484789cbf9943cce5de44e55ff6-sz_1443491.gif" alt="img"></p>
+<p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/d82c6f1712e949ba5367de50135acbb6-sz_12127.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/4bac4798479bf6cb3be9ce3825ecc265-sz_1183541.gif" alt="img"></p>
+<p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/f6b891b74ee2fc3de13844ee23836a59-sz_9043.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/3a7e95efb29023484ec65cad5232bddd-sz_1127734.gif" alt="img"></p>
+<p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/67c68d88837eed071f6f04fc9def0f77-sz_7500.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/f5a19085df03b37ee1672cff73a45fff-sz_756073.gif" alt="img"></p>
+<p> <img src="http://img.xiumi.us/xmi/ua/1DZPe/i/60617786ff3caff3ae3cbe65455b6366-sz_8129.jpg" alt="img"> </p>
+<p><img src="http://img.xiumi.us/xmi/ua/1DZPe/i/68f4480219e1c49ffaea4ece72461428-sz_591286.gif" alt="img"></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://lhldream.top/2018/01/03/2018-01-03-how-to-write/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Candy">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/favicon.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -316,8 +681,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/blog/" itemprop="url" rel="index">
-                    <span itemprop="name">blog</span>
+                  <a href="/categories/娱乐/" itemprop="url" rel="index">
+                    <span itemprop="name">娱乐</span>
                   </a>
                 </span>
 
@@ -335,6 +700,7 @@
           
 
           
+
 
           
 
@@ -430,8 +796,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/favicon.png"
+                alt="Candy" />
+            
               <p class="site-author-name" itemprop="name">Candy</p>
-              <p class="site-description motion-element" itemprop="description">每天分享优质的多媒体内容</p>
+              <p class="site-description motion-element" itemprop="description">不定时分享娱乐内容</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -441,7 +811,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -451,10 +821,10 @@
               
               
               <div class="site-state-item site-state-categories">
-                
-                  <span class="site-state-item-count">1</span>
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">categories</span>
-                
+                </a>
               </div>
             
 
@@ -462,15 +832,22 @@
               
               
               <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">2</span>
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">tags</span>
-                
+                </a>
               </div>
             
 
           </nav>
 
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
           
 
           
@@ -488,6 +865,13 @@
 
       
 
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
       
 
     </div>
@@ -518,7 +902,22 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+<div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" style='display:none'>
+    本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+    <span class="post-meta-divider">|</span>
+</span>
+<span id="busuanzi_container_site_uv" style='display:none'>
+    有<span id="busuanzi_value_site_uv"></span>人看过我的博客啦
+</span>
+</div>
+
+
 
 
 
@@ -535,11 +934,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
@@ -564,6 +958,8 @@
 
   
 
+
+  
 
 
 
@@ -605,6 +1001,11 @@
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
 
   
 
@@ -617,6 +1018,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
 
@@ -642,6 +1050,10 @@
 
 
   
+    
+
+    
+  
 
 
 
@@ -661,6 +1073,323 @@
 
 
   
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
 
 
 
