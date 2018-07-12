@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://github.com/cnrnews/cnrnews.github.io/master/photos';
-          var src = 'https://github.com/cnrnews/cnrnews.github.io/master/photos/' + data.link[i];
+           var minSrc = 'https://lhldream.top/2018/07/12/漫步人生路/' + data.link[i];
+          var src = 'https://lhldream.top/2018/07/12/漫步人生路/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '.jpg';
