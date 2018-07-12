@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[candylog]]></title>
+    <url>%2F2018%2F07%2F12%2Fcandylog%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title></title>
     <url>%2F2018%2F07%2F12%2F%E7%8F%8D%E6%83%9C%E7%94%9F%E6%B4%BB%2Findex%2F</url>
     <content type="text"><![CDATA[var NexT = window.NexT || {}; var CONFIG = { root: '/', scheme: 'Gemini', version: '5.1.4', sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false}, fancybox: true, tabs: true, motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}, duoshuo: { userId: '0', author: 'Author' }, algolia: { applicationID: '', apiKey: '', indexName: '', hits: {"per_page":10}, labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"} } }; 珍惜生活 | 睡醒的兔子 睡醒的兔子 当我们认为自己对这个世界已经相当重要的时候，其实这个世界才刚刚准备原谅我们的幼稚。 Home Categories Archives Tags About photos Search 珍惜生活 Posted on 2018-07-11 | In 人生 决定一个人成就的，不是天分，也不是运气，而是坚持和付出。是不停地做，重复的做，用心去做。当你真的努力了，付出了，你会发现自己潜力无限！记得每天鼓励自己，越勤奋，越幸运，越感恩，越幸福！早安 人生中出现的一切，都无法拥有，只能经历。深知这一点的人，就会懂得：无所谓失去，而只是经过而已；亦无所谓失败，而只是经验而已。用一颗浏览的心，去看待人生，一切的得与失、隐与显，都是风景与心情。 人生需要看透，但不能看破。事情看透，你就明白该如何进行；人情看透，你就明白该如何相处；事情看破，你就不想做事了；人情看破，你就不想做人了。所以，只要用点心，其余只是接受。要做到不去在意他人的言语很困难吧？嘴巴是别人的，人生是自己的。 或许，我们可以做的，只是让自己勇敢的活着。有人说，只有自己成为公主，才能吸引王子。而我想说，我们要努力让自己比公主还要优秀，至于是否可以吸引王子，就不是我们考虑的范围了。或许随遇而安，顺其自然，并不能带给我们想要的生活，但是，又有什么关系呢。快乐的活着，就很好。 人和人相遇，靠的是缘分；人和人相处，靠的是诚意。知遇着，便是幸福；相惜着，便是温暖。这世间，没有谁对不起谁，只有谁不懂得珍惜谁。相遇最美，今生若能遇见，就是难得的缘份和幸福。无论亲情、友情还是爱情，自然而然留在身边的，才是最真的，最长久的。遇见，只是一个开始；珍惜，才能相伴一生。 有人说，听到了候鸟的叫声，下一个期待中的季节就不远了。我这只候鸟，在青春的纬度里，继续着我青春的梦。生命不在于活得长与短，而在于顿悟的早与晚。 人生就像一本深刻丰厚的书，汇聚着生命的整个过程，每一页都记载着深邃博大的生活内容。人生的酸甜苦辣、喜怒哀乐全部藴含在字里行间。人生拥有太多的回忆，无论经历如何坎坷，滋味如何痛苦，唯一不变的还是那颗向往美好的心。 有时候不是不懂，只是不想懂；有时候不是不知道，只是不想说出来；有时候不是不明白，而是明白了也无能为力，于是就保持了沉默。有些话，适合藏在心里；有些痛苦适合无声无息的忘记；有些回忆，只适合偶尔拿出来回味。很多事，当经历过，自己知道就好。 人生千灯万盏，不如心灯一盏。人活得累，是因为能左右你心情的东西太多。天气的变化，人情的冷暖，不同的风景都会影响你的心情。而他们都是你无法左右的。看淡了，天无非阴晴，人不过聚散，地只是高低。不悲不喜，便是晴天。 任何时候都要记得，给人生留点余地，得到时不自喜，失去时不抑郁。留一点好处让别人占，留一点道路让别人走，留一点时间让自己思考。 欢迎您扫一扫上面的微信公众号，订阅我的博客！ # 七言 逗比老爸的逗比日常 晚安,好梦 Candy 不定时分享娱乐内容 14 posts 2 categories 3 tags RSS 0% &copy; 2018 Candy Powered by Hexo | Theme &mdash; NexT.Gemini v5.1.4 本站总访问量 次 | 有人看过我的博客啦 if (Object.prototype.toString.call(window.Promise) !== '[object Function]') { window.Promise = null; } // Popup Window; var isfetched = false; var isXml = true; // Search DB path; var search_path = "search.xml"; if (search_path.length === 0) { search_path = "search.xml"; } else if (/json$/i.test(search_path)) { isXml = false; } var path = "/" + search_path; // monitor main search box; var onPopupClose = function (e) { $('.popup').hide(); $('#local-search-input').val(''); $('.search-result-list').remove(); $('#no-result').remove(); $(".local-search-pop-overlay").remove(); $('body').css('overflow', ''); } function proceedsearch() { $("body") .append('') .css('overflow', 'hidden'); $('.search-popup-overlay').click(onPopupClose); $('.popup').toggle(); var $localSearchInput = $('#local-search-input'); $localSearchInput.attr("autocapitalize", "none"); $localSearchInput.attr("autocorrect", "off"); $localSearchInput.focus(); } // search function; var searchFunc = function(path, search_id, content_id) { 'use strict'; // start loading animation $("body") .append('' + '' + '' + '' + '') .css('overflow', 'hidden'); $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center'); $.ajax({ url: path, dataType: isXml ? "xml" : "json", async: true, success: function(res) { // get the contents from search data isfetched = true; $('.popup').detach().appendTo('.header-inner'); var datas = isXml ? $("entry", res).map(function() { return { title: $("title", this).text(), content: $("content",this).text(), url: $("url" , this).text() }; }).get() : res; var input = document.getElementById(search_id); var resultContent = document.getElementById(content_id); var inputEventFunction = function() { var searchText = input.value.trim().toLowerCase(); var keywords = searchText.split(/[\s\-]+/); if (keywords.length > 1) { keywords.push(searchText); } var resultItems = []; if (searchText.length > 0) { // perform local searching datas.forEach(function(data) { var isMatch = false; var hitCount = 0; var searchTextCount = 0; var title = data.title.trim(); var titleInLowerCase = title.toLowerCase(); var content = data.content.trim().replace(/]+>/g,""); var contentInLowerCase = content.toLowerCase(); var articleUrl = decodeURIComponent(data.url); var indexOfTitle = []; var indexOfContent = []; // only match articles with not empty titles if(title != '') { keywords.forEach(function(keyword) { function getIndexByWord(word, text, caseSensitive) { var wordLen = word.length; if (wordLen === 0) { return []; } var startPosition = 0, position = [], index = []; if (!caseSensitive) { text = text.toLowerCase(); word = word.toLowerCase(); } while ((position = text.indexOf(word, startPosition)) > -1) { index.push({position: position, word: word}); startPosition = position + wordLen; } return index; } indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false)); indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false)); }); if (indexOfTitle.length > 0 || indexOfContent.length > 0) { isMatch = true; hitCount = indexOfTitle.length + indexOfContent.length; } } // show search results if (isMatch) { // sort index by position of keyword [indexOfTitle, indexOfContent].forEach(function (index) { index.sort(function (itemLeft, itemRight) { if (itemRight.position !== itemLeft.position) { return itemRight.position - itemLeft.position; } else { return itemLeft.word.length - itemRight.word.length; } }); }); // merge hits into slices function mergeIntoSlice(text, start, end, index) { var item = index[index.length - 1]; var position = item.position; var word = item.word; var hits = []; var searchTextCountInSlice = 0; while (position + word.length position) { index.pop(); } else { break; } } } searchTextCount += searchTextCountInSlice; return { hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice }; } var slicesOfTitle = []; if (indexOfTitle.length != 0) { slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle)); } var slicesOfContent = []; while (indexOfContent.length != 0) { var item = indexOfContent[indexOfContent.length - 1]; var position = item.position; var word = item.word; // cut out 100 characters var start = position - 20; var end = position + 80; if(start < 0){ start = 0; } if (end < position + word.length) { end = position + word.length; } if(end > content.length){ end = content.length; } slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent)); } // sort slices in content by search text's count and hits' count slicesOfContent.sort(function (sliceLeft, sliceRight) { if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) { return sliceRight.searchTextCount - sliceLeft.searchTextCount; } else if (sliceLeft.hits.length !== sliceRight.hits.length) { return sliceRight.hits.length - sliceLeft.hits.length; } else { return sliceLeft.start - sliceRight.start; } }); // select top N slices in content var upperBound = parseInt('1'); if (upperBound >= 0) { slicesOfContent = slicesOfContent.slice(0, upperBound); } // highlight title and content function highlightKeyword(text, slice) { var result = ''; var prevEnd = slice.start; slice.hits.forEach(function (hit) { result += text.substring(prevEnd, hit.position); var end = hit.position + hit.length; result += '' + text.substring(hit.position, end) + ''; prevEnd = end; }); result += text.substring(prevEnd, slice.end); return result; } var resultItem = ''; if (slicesOfTitle.length != 0) { resultItem += "" + highlightKeyword(title, slicesOfTitle[0]) + ""; } else { resultItem += "" + title + ""; } slicesOfContent.forEach(function (slice) { resultItem += "" + "" + highlightKeyword(content, slice) + "..." + ""; }); resultItem += ""; resultItems.push({ item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length }); } }) }; if (keywords.length === 1 && keywords[0] === "") { resultContent.innerHTML = '' } else if (resultItems.length === 0) { resultContent.innerHTML = '' } else { resultItems.sort(function (resultLeft, resultRight) { if (resultLeft.searchTextCount !== resultRight.searchTextCount) { return resultRight.searchTextCount - resultLeft.searchTextCount; } else if (resultLeft.hitCount !== resultRight.hitCount) { return resultRight.hitCount - resultLeft.hitCount; } else { return resultRight.id - resultLeft.id; } }); var searchResultList = ''; resultItems.forEach(function (result) { searchResultList += result.item; }) searchResultList += ""; resultContent.innerHTML = searchResultList; } } if ('auto' === 'auto') { input.addEventListener('input', inputEventFunction); } else { $('.search-icon').click(inputEventFunction); input.addEventListener('keypress', function (event) { if (event.keyCode === 13) { inputEventFunction(); } }); } // remove loading animation $(".local-search-pop-overlay").remove(); $('body').css('overflow', ''); proceedsearch(); } }); } // handle and trigger popup window; $('.popup-trigger').click(function(e) { e.stopPropagation(); if (isfetched === false) { searchFunc(path, 'local-search-input', 'local-search-result'); } else { proceedsearch(); }; }); $('.popup-btn-close').click(onPopupClose); $('.popup').click(function(e){ e.stopPropagation(); }); $(document).on('keyup', function (event) { var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible'); if (shouldDismissSearchPopup) { onPopupClose(); } });]]></content>
@@ -82,9 +87,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[人生若只如初见]]></title>
-    <url>%2F2018%2F07%2F11%2F%E4%BA%BA%E7%94%9F%E8%8B%A5%E5%8F%AA%E5%A6%82%E5%88%9D%E8%A7%81%2F</url>
-    <content type="text"><![CDATA[人生需要有拿得起的魄力，更需要放得下的勇气！因为拿得起是一种能力，放得下却是一种智慧。拿得起的是生存，放得下的生活！ 世间最大的抱憾，是我们近在咫尺，却不懂彼此的沉默；最大的错失，是明知前方无路，却固执得不想转弯。 过去的请把它忘记，放下追逐，清风就会来！你放开眉头，世界就会快乐！菩提本无树，明镜亦非台，本来无一物，何处惹尘埃！ 坦然面对世事，提起来千斤重，放得下二两轻。知从容：潇洒驰骋人生，事从容有余味，人从容有余年。学会放下，人生才精彩。 学会放下，懂得从容。人生在世，难免会遇到很多不如意，生活中出现不顺心的事情，不要心怀不满、怨气冲天，也不必耿耿于怀、一蹶不振，是福是祸都得面对，是好是坏都会过去。 不要在意别人在背后怎么看你说你，因为这些言语改变不了事实，却可能搅乱你的心。心如果乱了，一切就都乱了。理解你的人，不需要解释；不理解你的人，不用你解释。因为日久不一定生情，但一定见人心。 给自己一片没有退路的悬崖，就是给自己一个向生命高地冲锋的机会。清清楚楚看昨天，扎扎实实抓今天，高高兴兴看明天。向昨天要经验，向明天要动力，向今天要成果。记住昨天，思索明天，善待今天！ 人生像是一篇文章，离不开各式的标点。成长不是一路一路获得，乐观的人，他不管遇到什么困难，什么苦楚，什么意外，从不悲观，从不灰心，从不失志，总是顽强地在逆境中拼搏，在坎坷中迈进。总是坦坦然然，快快乐乐地历经人生的里程。 当一个人有了强烈的想要改变自我的意愿，或者逐渐的变的好起来之后，便会不自觉的对周围的一切产生要求。个人力量是有限的，只有实现了资源的优化组合，与志同道合者合作，才能实现仅凭自己无法达成的愿望。 跌倒的时候，要能认识障碍，勇敢站起；失意的时候，要能自我检讨，再次出发；困难的时候，要能冷静分析，寻找突破；彷徨的时候，要能看清目标，不变方向。]]></content>
+    <title><![CDATA[关于爱情]]></title>
+    <url>%2F2018%2F07%2F11%2F%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85%2F</url>
+    <content type="text"><![CDATA[希望以后的日子里，有人给你波澜不惊的爱情，有人陪你看细水长流的风景。 假如这一生我有99次好运，我愿意把96次都分给你，只留三次给自己。一次是遇见你，一次是我爱的你也恰好爱上我，一次是永远陪你走下去。 月亮极亮，云也十分温柔，所有对你的想念，都落入温软的呼吸里。 人的一生会遇到两个人，一个惊艳了时光，一个温柔了岁月。 记忆像是倒在掌心的水，不论你摊开还是紧握，终究还是会从指缝中，一滴一滴，流淌干净。 时间是奇妙的化学物质。可以抹平忧伤，可以抛下快乐，可以淡漠成长，可以见证生死。 有些事，过去了也就忘了。有些事，过不去也忘不了。忘不了，不是过不去，是过去了，也忘不了。 过自己想要的生活，上帝会让你付出代价。照顾好自己，爱自己才能爱好别人。如果你压抑，痛苦，忧伤，不自由，又怎么可能在心里腾出温暖的房间，让重要的人住在里面。如果一颗心千疮百孔，住在里面的人就会被雨水打湿。 一个人的小巷，有薄暮夕阳的浪漫，拾起阡陌边的稻草，放进嘴里嚼。一个人的海洋，有碧海蓝天的忧伤 ，踢着悠悠浮动的水草，让心洋轻轻荡。一个人的小街，有落雨缤纷的凄美，打着同样缤纷的伞，看电影散场的人，游走在纷扰的边缘。 时间是奇妙的化学物质。可以抹平忧伤，可以抛下快乐，可以淡漠成长，可以见证生死。]]></content>
       <categories>
         <category>人生</category>
       </categories>
@@ -96,28 +101,6 @@
     <title><![CDATA[唯有爱不可辜负]]></title>
     <url>%2F2018%2F07%2F11%2F%E5%94%AF%E6%9C%89%E7%88%B1%E4%B8%8D%E5%8F%AF%E8%BE%9C%E8%B4%9F%2F</url>
     <content type="text"><![CDATA[爱一个人要用心，诚心相待，真心交流，恒心相守。在一起是一种缘分，不要轻易让喜欢你的人哭泣伤心，好好珍惜在一起的每一分钟，美好的回忆应该留给快乐和欢笑。 心动，是第一眼看见你时；心跳，因你的出现而加速；心情，随着你而喜怒哀乐。我怀念那些曾经，是因为那里有我最单纯的思念和最完整的心。 白头到老，你是我爱过，疼过，挣扎过，放弃过，却还义无反顾想爱的人。我们渴望的，是倾心呵护能够一生行走的爱情。 白头到老，你是我爱过，疼过，挣扎过，放弃过，却还义无反顾想爱的人。我们渴望的，是倾心呵护能够一生行走的爱情。 留住的叫幸福，流逝的叫遗憾：幸福的滋味是甜甜的，偶尔酸酸的；遗憾的感觉是苦苦的，偶尔辣辣的。“不合适”三字道，尽了多少男女之间的无可奈何。 有一种遇见，一眼凝眸，便是永恒；有一种心动，一生一次，只为一人；有一种相知，一声懂得，便是花开；有一种相守，默然相爱，寂然欢喜；有一种牵念，远在天涯，近在咫尺；有一种相思，一眼回眸，已然入骨；有一种情话，弱水三千只取一瓢；有一种约定，风雨同舟不离不弃；有一种誓言，时光尽头我在等你。 情不在拥有，用心珍惜，才能长久；爱，不在嘴边，挂念在心，方能相依。缘分，不论早晚，倾心，能相知；牵念，无论远近，倾情，才能唯一。爱，无声，只能用心默默聆听；情，无语，只能用心悄悄牵念。一种爱，是心的默契，一种情，是心的守望。 先爱的人先输，多爱的人多苦。世间最悲哀的事，莫过于两个人彼此倾心，却因为沉默而错过。一颗心属于一个人，爱情里什么是公平？爱的深，伤的深，在爱情里面是没有不公平。爱上不该爱的人，是永无天日的叹息，爱了不爱你的人，那么也就是眼泪决堤的开始。做一个简单的人，保持平常心，简单，快乐。 任何美丽而痛苦的回忆，都已成为昨日的乐章。寄情于那曾一度辉煌过的亲切记忆，辗转沉溺于早已虚幻如梦的往日悲欢，便不会看到威力的爱情芳草重生，即使日，月，星辰都从你身边溜走，至少你还拥有一片天空。 我爱你，没有什么目的，只是爱你。一辈子，就做一次自己。这一次，我想给你全世界；这一次，遍体鳞伤也没关系；这一次，用尽所有的勇敢；这一次，可以什么都不在乎。但只是这一次就够了。因为生命再也承受不起这么重的爱情。这一次，我愿意为你丢弃自尊，放下矜持，不管值不值得，不管爱得多卑微。]]></content>
-      <categories>
-        <category>人生</category>
-      </categories>
-      <tags>
-        <tag>七言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[情愿得一人心,白首不分离]]></title>
-    <url>%2F2018%2F07%2F11%2F%E6%83%85%E6%84%BF%E5%BE%97%E4%B8%80%E4%BA%BA%E5%BF%83%2C%E7%99%BD%E9%A6%96%E4%B8%8D%E5%88%86%E7%A6%BB%2F</url>
-    <content type="text"><![CDATA[你知道什么叫意外吗？就是我从没想过会遇见你，但我遇见了，我从没想过会爱你，但我还是爱了。 你的名字，是我读过最短的情诗。我很喜欢你，像春去秋来，海棠花开。 三生有幸遇见你，人生只有两次幸运就好，一次遇见你，一次走到底。 你不用多好，我喜欢就好，我不是很好，你不嫌弃就好。 喜欢你时，你每一句漫不经心的话，都在我心里开出漫山遍野的花。 因为喜欢你，借着你的光，瞧见了从未预见的世界。 我在这个世界上，走走停停，寻寻觅觅，就是为了和你相遇。 你看，这么多人，这么大的世界，我遇到了你，你也遇到了我，真好。 我对爱情的要求很简单：找一个我爱的也爱我的人手牵着手，从白天走到黑夜，从黑头发走到白头发；走累了就停下来，一起欣赏风景，一起唠嗑岁月。 我打算爱你很久很久，没有想要放弃的念头。]]></content>
-      <categories>
-        <category>人生</category>
-      </categories>
-      <tags>
-        <tag>七言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[关于爱情]]></title>
-    <url>%2F2018%2F07%2F11%2F%E5%85%B3%E4%BA%8E%E7%88%B1%E6%83%85%2F</url>
-    <content type="text"><![CDATA[希望以后的日子里，有人给你波澜不惊的爱情，有人陪你看细水长流的风景。 假如这一生我有99次好运，我愿意把96次都分给你，只留三次给自己。一次是遇见你，一次是我爱的你也恰好爱上我，一次是永远陪你走下去。 月亮极亮，云也十分温柔，所有对你的想念，都落入温软的呼吸里。 人的一生会遇到两个人，一个惊艳了时光，一个温柔了岁月。 记忆像是倒在掌心的水，不论你摊开还是紧握，终究还是会从指缝中，一滴一滴，流淌干净。 时间是奇妙的化学物质。可以抹平忧伤，可以抛下快乐，可以淡漠成长，可以见证生死。 有些事，过去了也就忘了。有些事，过不去也忘不了。忘不了，不是过不去，是过去了，也忘不了。 过自己想要的生活，上帝会让你付出代价。照顾好自己，爱自己才能爱好别人。如果你压抑，痛苦，忧伤，不自由，又怎么可能在心里腾出温暖的房间，让重要的人住在里面。如果一颗心千疮百孔，住在里面的人就会被雨水打湿。 一个人的小巷，有薄暮夕阳的浪漫，拾起阡陌边的稻草，放进嘴里嚼。一个人的海洋，有碧海蓝天的忧伤 ，踢着悠悠浮动的水草，让心洋轻轻荡。一个人的小街，有落雨缤纷的凄美，打着同样缤纷的伞，看电影散场的人，游走在纷扰的边缘。 时间是奇妙的化学物质。可以抹平忧伤，可以抛下快乐，可以淡漠成长，可以见证生死。]]></content>
       <categories>
         <category>人生</category>
       </categories>
@@ -148,8 +131,8 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[没有到不了的明天]]></title>
-    <url>%2F2018%2F07%2F11%2F%E6%B2%A1%E6%9C%89%E5%88%B0%E4%B8%8D%E4%BA%86%E7%9A%84%E6%98%8E%E5%A4%A9%2F</url>
+    <title><![CDATA[人生若只如初见]]></title>
+    <url>%2F2018%2F07%2F11%2F%E4%BA%BA%E7%94%9F%E8%8B%A5%E5%8F%AA%E5%A6%82%E5%88%9D%E8%A7%81%2F</url>
     <content type="text"><![CDATA[人生需要有拿得起的魄力，更需要放得下的勇气！因为拿得起是一种能力，放得下却是一种智慧。拿得起的是生存，放得下的生活！ 世间最大的抱憾，是我们近在咫尺，却不懂彼此的沉默；最大的错失，是明知前方无路，却固执得不想转弯。 过去的请把它忘记，放下追逐，清风就会来！你放开眉头，世界就会快乐！菩提本无树，明镜亦非台，本来无一物，何处惹尘埃！ 坦然面对世事，提起来千斤重，放得下二两轻。知从容：潇洒驰骋人生，事从容有余味，人从容有余年。学会放下，人生才精彩。 学会放下，懂得从容。人生在世，难免会遇到很多不如意，生活中出现不顺心的事情，不要心怀不满、怨气冲天，也不必耿耿于怀、一蹶不振，是福是祸都得面对，是好是坏都会过去。 不要在意别人在背后怎么看你说你，因为这些言语改变不了事实，却可能搅乱你的心。心如果乱了，一切就都乱了。理解你的人，不需要解释；不理解你的人，不用你解释。因为日久不一定生情，但一定见人心。 给自己一片没有退路的悬崖，就是给自己一个向生命高地冲锋的机会。清清楚楚看昨天，扎扎实实抓今天，高高兴兴看明天。向昨天要经验，向明天要动力，向今天要成果。记住昨天，思索明天，善待今天！ 人生像是一篇文章，离不开各式的标点。成长不是一路一路获得，乐观的人，他不管遇到什么困难，什么苦楚，什么意外，从不悲观，从不灰心，从不失志，总是顽强地在逆境中拼搏，在坎坷中迈进。总是坦坦然然，快快乐乐地历经人生的里程。 当一个人有了强烈的想要改变自我的意愿，或者逐渐的变的好起来之后，便会不自觉的对周围的一切产生要求。个人力量是有限的，只有实现了资源的优化组合，与志同道合者合作，才能实现仅凭自己无法达成的愿望。 跌倒的时候，要能认识障碍，勇敢站起；失意的时候，要能自我检讨，再次出发；困难的时候，要能冷静分析，寻找突破；彷徨的时候，要能看清目标，不变方向。]]></content>
       <categories>
         <category>人生</category>
@@ -170,9 +153,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[珍惜生活]]></title>
-    <url>%2F2018%2F07%2F11%2F%E7%8F%8D%E6%83%9C%E7%94%9F%E6%B4%BB%2F</url>
-    <content type="text"><![CDATA[决定一个人成就的，不是天分，也不是运气，而是坚持和付出。是不停地做，重复的做，用心去做。当你真的努力了，付出了，你会发现自己潜力无限！记得每天鼓励自己，越勤奋，越幸运，越感恩，越幸福！早安 人生中出现的一切，都无法拥有，只能经历。深知这一点的人，就会懂得：无所谓失去，而只是经过而已；亦无所谓失败，而只是经验而已。用一颗浏览的心，去看待人生，一切的得与失、隐与显，都是风景与心情。 人生需要看透，但不能看破。事情看透，你就明白该如何进行；人情看透，你就明白该如何相处；事情看破，你就不想做事了；人情看破，你就不想做人了。所以，只要用点心，其余只是接受。要做到不去在意他人的言语很困难吧？嘴巴是别人的，人生是自己的。 或许，我们可以做的，只是让自己勇敢的活着。有人说，只有自己成为公主，才能吸引王子。而我想说，我们要努力让自己比公主还要优秀，至于是否可以吸引王子，就不是我们考虑的范围了。或许随遇而安，顺其自然，并不能带给我们想要的生活，但是，又有什么关系呢。快乐的活着，就很好。 人和人相遇，靠的是缘分；人和人相处，靠的是诚意。知遇着，便是幸福；相惜着，便是温暖。这世间，没有谁对不起谁，只有谁不懂得珍惜谁。相遇最美，今生若能遇见，就是难得的缘份和幸福。无论亲情、友情还是爱情，自然而然留在身边的，才是最真的，最长久的。遇见，只是一个开始；珍惜，才能相伴一生。 有人说，听到了候鸟的叫声，下一个期待中的季节就不远了。我这只候鸟，在青春的纬度里，继续着我青春的梦。生命不在于活得长与短，而在于顿悟的早与晚。 人生就像一本深刻丰厚的书，汇聚着生命的整个过程，每一页都记载着深邃博大的生活内容。人生的酸甜苦辣、喜怒哀乐全部藴含在字里行间。人生拥有太多的回忆，无论经历如何坎坷，滋味如何痛苦，唯一不变的还是那颗向往美好的心。 有时候不是不懂，只是不想懂；有时候不是不知道，只是不想说出来；有时候不是不明白，而是明白了也无能为力，于是就保持了沉默。有些话，适合藏在心里；有些痛苦适合无声无息的忘记；有些回忆，只适合偶尔拿出来回味。很多事，当经历过，自己知道就好。 人生千灯万盏，不如心灯一盏。人活得累，是因为能左右你心情的东西太多。天气的变化，人情的冷暖，不同的风景都会影响你的心情。而他们都是你无法左右的。看淡了，天无非阴晴，人不过聚散，地只是高低。不悲不喜，便是晴天。 任何时候都要记得，给人生留点余地，得到时不自喜，失去时不抑郁。留一点好处让别人占，留一点道路让别人走，留一点时间让自己思考。]]></content>
+    <title><![CDATA[没有到不了的明天]]></title>
+    <url>%2F2018%2F07%2F11%2F%E6%B2%A1%E6%9C%89%E5%88%B0%E4%B8%8D%E4%BA%86%E7%9A%84%E6%98%8E%E5%A4%A9%2F</url>
+    <content type="text"><![CDATA[人生需要有拿得起的魄力，更需要放得下的勇气！因为拿得起是一种能力，放得下却是一种智慧。拿得起的是生存，放得下的生活！ 世间最大的抱憾，是我们近在咫尺，却不懂彼此的沉默；最大的错失，是明知前方无路，却固执得不想转弯。 过去的请把它忘记，放下追逐，清风就会来！你放开眉头，世界就会快乐！菩提本无树，明镜亦非台，本来无一物，何处惹尘埃！ 坦然面对世事，提起来千斤重，放得下二两轻。知从容：潇洒驰骋人生，事从容有余味，人从容有余年。学会放下，人生才精彩。 学会放下，懂得从容。人生在世，难免会遇到很多不如意，生活中出现不顺心的事情，不要心怀不满、怨气冲天，也不必耿耿于怀、一蹶不振，是福是祸都得面对，是好是坏都会过去。 不要在意别人在背后怎么看你说你，因为这些言语改变不了事实，却可能搅乱你的心。心如果乱了，一切就都乱了。理解你的人，不需要解释；不理解你的人，不用你解释。因为日久不一定生情，但一定见人心。 给自己一片没有退路的悬崖，就是给自己一个向生命高地冲锋的机会。清清楚楚看昨天，扎扎实实抓今天，高高兴兴看明天。向昨天要经验，向明天要动力，向今天要成果。记住昨天，思索明天，善待今天！ 人生像是一篇文章，离不开各式的标点。成长不是一路一路获得，乐观的人，他不管遇到什么困难，什么苦楚，什么意外，从不悲观，从不灰心，从不失志，总是顽强地在逆境中拼搏，在坎坷中迈进。总是坦坦然然，快快乐乐地历经人生的里程。 当一个人有了强烈的想要改变自我的意愿，或者逐渐的变的好起来之后，便会不自觉的对周围的一切产生要求。个人力量是有限的，只有实现了资源的优化组合，与志同道合者合作，才能实现仅凭自己无法达成的愿望。 跌倒的时候，要能认识障碍，勇敢站起；失意的时候，要能自我检讨，再次出发；困难的时候，要能冷静分析，寻找突破；彷徨的时候，要能看清目标，不变方向。]]></content>
       <categories>
         <category>人生</category>
       </categories>
@@ -195,6 +178,28 @@
     <title><![CDATA[亲爱的对不起!我又在想你了~]]></title>
     <url>%2F2018%2F07%2F11%2F%E4%BA%B2%E7%88%B1%E7%9A%84%E5%AF%B9%E4%B8%8D%E8%B5%B7!%E6%88%91%E5%8F%88%E5%9C%A8%E6%83%B3%E4%BD%A0%E4%BA%86~%2F</url>
     <content type="text"><![CDATA[没有机会回味，更没机会后悔，人生竟只有一张单程车票，任何叹息愧疚都无法使岁月的车轮逆转，所以，一切事都赶快做，别去等，有这样一句话：除了死，什么都不宜迟。 不要去等明天，不要去相信永远，你所能做的，就是眼前。你所爱，为尔所为。没有人会等你，在这风雨飘摇的人生路上。你所能做的，就是让自己更快、更强。 生活就像一面镜子。你笑，它便笑；你哭，它也哭。心存善念，便会迎来更多美好的事物。 人生最遗憾的莫过于轻易地放弃了不该放弃的，固执地坚持了不该坚持的。 收拾起心情，继续走吧，错过花，你将收获雨，错过这一个，你才会遇到下一个。 生命是一场幻觉，而你是我的光。 像风一样，淡出你的生命。这样就好。 尝试去把别人拍过来的砖砌成结实的地基，生活就不会那么辛苦了。 人生平静便是福，平静生活，真实而洒脱。生命太短，最没有意义的就是不情愿的重复，所以人生第一要义不是天天幸福，而是不烦，喜怒哀思悲恐惊，酸甜苦辣咸麻涩鲜，都是人生经验。 因为平淡，我们的爱情有时会游离原本温馨的港湾;因为好奇，我们的行程会在某个十字路口不经意的拐弯，就在你意欲转身的刹那，你会听见身后有爱情在低声地哭泣。]]></content>
+      <categories>
+        <category>人生</category>
+      </categories>
+      <tags>
+        <tag>七言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[情愿得一人心,白首不分离]]></title>
+    <url>%2F2018%2F07%2F11%2F%E6%83%85%E6%84%BF%E5%BE%97%E4%B8%80%E4%BA%BA%E5%BF%83%2C%E7%99%BD%E9%A6%96%E4%B8%8D%E5%88%86%E7%A6%BB%2F</url>
+    <content type="text"><![CDATA[你知道什么叫意外吗？就是我从没想过会遇见你，但我遇见了，我从没想过会爱你，但我还是爱了。 你的名字，是我读过最短的情诗。我很喜欢你，像春去秋来，海棠花开。 三生有幸遇见你，人生只有两次幸运就好，一次遇见你，一次走到底。 你不用多好，我喜欢就好，我不是很好，你不嫌弃就好。 喜欢你时，你每一句漫不经心的话，都在我心里开出漫山遍野的花。 因为喜欢你，借着你的光，瞧见了从未预见的世界。 我在这个世界上，走走停停，寻寻觅觅，就是为了和你相遇。 你看，这么多人，这么大的世界，我遇到了你，你也遇到了我，真好。 我对爱情的要求很简单：找一个我爱的也爱我的人手牵着手，从白天走到黑夜，从黑头发走到白头发；走累了就停下来，一起欣赏风景，一起唠嗑岁月。 我打算爱你很久很久，没有想要放弃的念头。]]></content>
+      <categories>
+        <category>人生</category>
+      </categories>
+      <tags>
+        <tag>七言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[珍惜生活]]></title>
+    <url>%2F2018%2F07%2F11%2F%E7%8F%8D%E6%83%9C%E7%94%9F%E6%B4%BB%2F</url>
+    <content type="text"><![CDATA[决定一个人成就的，不是天分，也不是运气，而是坚持和付出。是不停地做，重复的做，用心去做。当你真的努力了，付出了，你会发现自己潜力无限！记得每天鼓励自己，越勤奋，越幸运，越感恩，越幸福！早安 人生中出现的一切，都无法拥有，只能经历。深知这一点的人，就会懂得：无所谓失去，而只是经过而已；亦无所谓失败，而只是经验而已。用一颗浏览的心，去看待人生，一切的得与失、隐与显，都是风景与心情。 人生需要看透，但不能看破。事情看透，你就明白该如何进行；人情看透，你就明白该如何相处；事情看破，你就不想做事了；人情看破，你就不想做人了。所以，只要用点心，其余只是接受。要做到不去在意他人的言语很困难吧？嘴巴是别人的，人生是自己的。 或许，我们可以做的，只是让自己勇敢的活着。有人说，只有自己成为公主，才能吸引王子。而我想说，我们要努力让自己比公主还要优秀，至于是否可以吸引王子，就不是我们考虑的范围了。或许随遇而安，顺其自然，并不能带给我们想要的生活，但是，又有什么关系呢。快乐的活着，就很好。 人和人相遇，靠的是缘分；人和人相处，靠的是诚意。知遇着，便是幸福；相惜着，便是温暖。这世间，没有谁对不起谁，只有谁不懂得珍惜谁。相遇最美，今生若能遇见，就是难得的缘份和幸福。无论亲情、友情还是爱情，自然而然留在身边的，才是最真的，最长久的。遇见，只是一个开始；珍惜，才能相伴一生。 有人说，听到了候鸟的叫声，下一个期待中的季节就不远了。我这只候鸟，在青春的纬度里，继续着我青春的梦。生命不在于活得长与短，而在于顿悟的早与晚。 人生就像一本深刻丰厚的书，汇聚着生命的整个过程，每一页都记载着深邃博大的生活内容。人生的酸甜苦辣、喜怒哀乐全部藴含在字里行间。人生拥有太多的回忆，无论经历如何坎坷，滋味如何痛苦，唯一不变的还是那颗向往美好的心。 有时候不是不懂，只是不想懂；有时候不是不知道，只是不想说出来；有时候不是不明白，而是明白了也无能为力，于是就保持了沉默。有些话，适合藏在心里；有些痛苦适合无声无息的忘记；有些回忆，只适合偶尔拿出来回味。很多事，当经历过，自己知道就好。 人生千灯万盏，不如心灯一盏。人活得累，是因为能左右你心情的东西太多。天气的变化，人情的冷暖，不同的风景都会影响你的心情。而他们都是你无法左右的。看淡了，天无非阴晴，人不过聚散，地只是高低。不悲不喜，便是晴天。 任何时候都要记得，给人生留点余地，得到时不自喜，失去时不抑郁。留一点好处让别人占，留一点道路让别人走，留一点时间让自己思考。]]></content>
       <categories>
         <category>人生</category>
       </categories>
