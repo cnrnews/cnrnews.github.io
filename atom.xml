@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-06T00:58:56.192Z</updated>
+  <updated>2019-01-06T01:06:11.526Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;晚安,你好&#39;</title>
+    <link href="http://yoursite.com/2019/01/06/%E6%99%9A%E5%AE%89-%E4%BD%A0%E5%A5%BD/"/>
+    <id>http://yoursite.com/2019/01/06/晚安-你好/</id>
+    <published>2019-01-06T01:04:53.000Z</published>
+    <updated>2019-01-06T01:06:11.526Z</updated>
+    
+    <summary type="html">
+    
+      时光如水，物转星移，许多人事都分道扬镳，不明下落。而缘分是一条神奇的河流，我们划着桨橹漂浮在其中，朝着各自的方向驶去。
+    
+    </summary>
+    
+      <category term="人生" scheme="http://yoursite.com/categories/%E4%BA%BA%E7%94%9F/"/>
+    
+    
+      <category term="七言" scheme="http://yoursite.com/tags/%E4%B8%83%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>&#39;2018年终总结&#39;</title>
