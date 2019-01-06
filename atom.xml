@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>睡醒的兔子</title>
+  
+  <subtitle>当我们认为自己对这个世界已经相当重要的时候,其实这个世界才刚刚准备原谅我们的幼稚。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-01-06T00:58:56.192Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>睡醒的兔子</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;2018年终总结&#39;</title>
+    <link href="http://yoursite.com/2019/01/05/2018%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2019/01/05/2018年终总结/</id>
+    <published>2019-01-05T15:07:09.000Z</published>
+    <updated>2019-01-06T00:58:56.192Z</updated>
+    
+    <summary type="html">
+    
+      2018已经过去，直到现在才迎来2018年的总结
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="年终总结" scheme="http://yoursite.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+</feed>
