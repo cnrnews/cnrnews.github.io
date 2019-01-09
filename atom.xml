@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-06T05:45:14.575Z</updated>
+  <updated>2019-01-09T09:34:06.781Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于OpenFire 的Android IM 即时通讯框架</title>
+    <link href="http://yoursite.com/2019/01/09/%E5%9F%BA%E4%BA%8EOpenFire%20%E7%9A%84Android%20IM%20%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E6%A1%86%E6%9E%B6/"/>
+    <id>http://yoursite.com/2019/01/09/基于OpenFire 的Android IM 即时通讯框架/</id>
+    <published>2019-01-09T06:11:12.000Z</published>
+    <updated>2019-01-09T09:34:06.781Z</updated>
+    
+    <summary type="html">
+    
+      IM开源框架知识梳理
+    
+    </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="架构" scheme="http://yoursite.com/tags/%E6%9E%B6%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>下一站幸福</title>
@@ -121,7 +141,7 @@
     <link href="http://yoursite.com/2018/10/18/%E7%BC%96%E5%86%99%E5%8F%AF%E8%AF%BB%E4%BB%A3%E7%A0%81%E7%9A%84%E8%89%BA%E6%9C%AF%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2018/10/18/编写可读代码的艺术阅读笔记/</id>
     <published>2018-10-18T00:18:16.000Z</published>
-    <updated>2019-01-07T12:40:19.612Z</updated>
+    <updated>2019-01-07T12:54:21.156Z</updated>
     
     <summary type="html">
     
