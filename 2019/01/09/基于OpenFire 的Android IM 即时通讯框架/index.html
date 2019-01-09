@@ -87,14 +87,14 @@
 <meta property="og:site_name" content="睡醒的兔子">
 <meta property="og:description" content="IM开源框架知识梳理">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2019/01/09/基于OpenFire%20的Android%20IM%20即时通讯框架/AndroidDevelopment/学习/笔记/基于OpenFire%20的Android%20IM%20即时通讯框架/1.png">
-<meta property="og:image" content="http://yoursite.com/2019/01/09/基于OpenFire%20的Android%20IM%20即时通讯框架/AndroidDevelopment/学习/笔记/基于OpenFire%20的Android%20IM%20即时通讯框架/2.png">
-<meta property="og:image" content="http://yoursite.com/2019/01/09/基于OpenFire%20的Android%20IM%20即时通讯框架/AndroidDevelopment/学习/笔记/基于OpenFire%20的Android%20IM%20即时通讯框架/3.png">
-<meta property="og:updated_time" content="2019-01-09T09:34:06.781Z">
+<meta property="og:image" content="http://yoursite.com/2019/01/09/基于OpenFire%20的Android%20IM%20即时通讯框架/1.png">
+<meta property="og:image" content="http://yoursite.com/2019/01/09/基于OpenFire%20的Android%20IM%20即时通讯框架/2.png">
+<meta property="og:image" content="http://yoursite.com/2019/01/09/基于OpenFire%20的Android%20IM%20即时通讯框架/3.png">
+<meta property="og:updated_time" content="2019-01-09T13:35:58.431Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于OpenFire 的Android IM 即时通讯框架">
 <meta name="twitter:description" content="IM开源框架知识梳理">
-<meta name="twitter:image" content="http://yoursite.com/2019/01/09/基于OpenFire%20的Android%20IM%20即时通讯框架/AndroidDevelopment/学习/笔记/基于OpenFire%20的Android%20IM%20即时通讯框架/1.png">
+<meta name="twitter:image" content="http://yoursite.com/2019/01/09/基于OpenFire%20的Android%20IM%20即时通讯框架/1.png">
 
 
 
@@ -398,12 +398,12 @@
 <p>后续扩展的话，如果是一个成熟的增量同步上下行结构，在这个基础上可做的事情也非常多。</p>
 <h2 id="1-2系统框架介绍"><a href="#1-2系统框架介绍" class="headerlink" title="1.2系统框架介绍"></a><strong>1.2系统框架介绍</strong></h2><p>通讯系统架构采用C/S模式，即客户端/服务器的体系结构。客户端是基于Android平台进行开发，通过3G 网络与Internet建立连接，通过服务器实现Android客户端之间的即时通讯。客户端负责初始化通信过程，进行即时通讯时，由客户端负责向服务器端发起连接请求。服务器端采用开源的Openfire 作为服务器，允许多个客户端同时登录，并且同时连接到一个服务器上。服务器对每个客户端进行认证，对认证通过的客户端创建会话，实现客户端与客户端之间的通讯。</p>
 <h2 id="1-3-客户端解决方案"><a href="#1-3-客户端解决方案" class="headerlink" title="1.3 客户端解决方案"></a><strong>1.3 客户端解决方案</strong></h2><p>系统的客户端定位于Android平台的手机，采用SIMPLE 协议作为即时通讯协议，SIMPLE(SIP for InSTant Messaging and Presence Levera—ging Extensions)是SIP(Session Initiation Proto—co1)的扩展，它为SIP协议制定了一整套的架构和扩展方面的规范，用于支持IM。SIMPLE通过SIP来传递状态信息和实现分布的信息表示。根据协议规则，采用Android平台提供的XML解析包对XML进行解析。根据Activity模块运行于主线程的特点，采用多线程 技术来解决系统通信问题。系统的用户信息和聊天信息存储在Android平台自身所带的SQLite数据库中。客户端功能模块如图2所示。</p>
-<p><img src="/2019/01/09/基于OpenFire 的Android IM 即时通讯框架/AndroidDevelopment\学习\笔记\基于OpenFire 的Android IM 即时通讯框架\1.png" alt=""></p>
+<p><img src="/2019/01/09/基于OpenFire 的Android IM 即时通讯框架/1.png" alt=""></p>
 <h2 id="1-4-服务端解决方案"><a href="#1-4-服务端解决方案" class="headerlink" title="1.4 服务端解决方案"></a><strong>1.4 服务端解决方案</strong></h2><p>系统服务器端采用开源的Openfire来建立即时通信服务器。Openfire采用Java语言进行开发，Java语言具有跨平台的特点，因此Openfire服务器可以架设于多种操作系统平台上。Openfire服务器的内核主要由服务器连接管理组件、会话管理组件、数据存储组件和传输器组件等组成。</p>
 <p>Openfire实现了插件机制，方便扩展，通过安装与异构网络通讯的插件，便能与其他的通讯软件实现通讯。在网络连接中采用Apache的Mina框架来实现网络连接，Mina框架使用非阻塞式的高性能I/O底层，采用异步I/O事件和事件驱动机制，使服务器具有很高的效率和性能，从而能够及时处理大量的客户端连接事件和VO 随机事件，单台服务器可支持上万个并发用户。服务器与客户端的连接示意图如图3所示。</p>
-<p><img src="/2019/01/09/基于OpenFire 的Android IM 即时通讯框架/AndroidDevelopment\学习\笔记\基于OpenFire 的Android IM 即时通讯框架\2.png" alt=""> </p>
+<p><img src="/2019/01/09/基于OpenFire 的Android IM 即时通讯框架/2.png" alt=""> </p>
 <h2 id="1-5-系统工作流程"><a href="#1-5-系统工作流程" class="headerlink" title="1.5 系统工作流程"></a><strong>1.5 系统工作流程</strong></h2><p>服务器对用户输入的用户名和密码进行身份验证，验证成功后，客户端从服务器端读取客户端的个人信息，并更新好友列表和群组信息，服务器端响应客户端的各种请求，客户端可发送接收信息，通讯完毕退出系统登录状态。这样，一个简易即时通讯系统便实现了。图5是认证流程示意图。客户端软件使用Java和XML语言在Android Studio集成开发环境中开发。</p>
-<p><img src="/2019/01/09/基于OpenFire 的Android IM 即时通讯框架/AndroidDevelopment\学习\笔记\基于OpenFire 的Android IM 即时通讯框架\3.png" alt=""> </p>
+<p><img src="/2019/01/09/基于OpenFire 的Android IM 即时通讯框架/3.png" alt=""> </p>
 <h2 id="1-6-参考链接"><a href="#1-6-参考链接" class="headerlink" title="1.6 参考链接"></a><strong>1.6 参考链接</strong></h2><p><a href="https://ruby-china.org/topics/22530" target="_blank" rel="noopener">https://ruby-china.org/topics/22530</a></p>
 
       
