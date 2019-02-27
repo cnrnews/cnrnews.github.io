@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-27T01:38:13.564Z</updated>
+  <updated>2019-02-26T08:53:00.819Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,22 +17,22 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2018年终总结</title>
-    <link href="http://yoursite.com/2019/02/20/2018%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2019/02/20/2018年终总结/</id>
+    <title>2019 年移动端下半场，你准备好上场了吗？</title>
+    <link href="http://yoursite.com/2019/02/20/2019%20%E5%B9%B4%E7%A7%BB%E5%8A%A8%E7%AB%AF%E4%B8%8B%E5%8D%8A%E5%9C%BA%EF%BC%8C%E4%BD%A0%E5%87%86%E5%A4%87%E5%A5%BD%E4%B8%8A%E5%9C%BA%E4%BA%86%E5%90%97%EF%BC%9F/"/>
+    <id>http://yoursite.com/2019/02/20/2019 年移动端下半场，你准备好上场了吗？/</id>
     <published>2019-02-20T08:54:53.000Z</published>
-    <updated>2019-02-27T01:38:13.564Z</updated>
+    <updated>2019-02-26T08:53:00.819Z</updated>
     
     <summary type="html">
     
-      2018已经过去，直到现在才迎来2018年的总结。今年是自己第一次有点正式的写年终总结，当周围一切安静，脑海里回忆起自己的2018过往，伴随着键盘的敲击声一段段熟悉又陌生的旧时光恍如昨日...
+      当下移动端程序员普遍存在的问题时
     
     </summary>
     
-      <category term="职场" scheme="http://yoursite.com/categories/%E8%81%8C%E5%9C%BA/"/>
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="年终总结" scheme="http://yoursite.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+      <category term="分析报告" scheme="http://yoursite.com/tags/%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/"/>
     
   </entry>
   
@@ -46,26 +46,6 @@
     <summary type="html">
     
       Web前端发展趋势分析报告整理
-    
-    </summary>
-    
-      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="分析报告" scheme="http://yoursite.com/tags/%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019 年移动端下半场，你准备好上场了吗？</title>
-    <link href="http://yoursite.com/2019/02/20/2019%20%E5%B9%B4%E7%A7%BB%E5%8A%A8%E7%AB%AF%E4%B8%8B%E5%8D%8A%E5%9C%BA%EF%BC%8C%E4%BD%A0%E5%87%86%E5%A4%87%E5%A5%BD%E4%B8%8A%E5%9C%BA%E4%BA%86%E5%90%97%EF%BC%9F/"/>
-    <id>http://yoursite.com/2019/02/20/2019 年移动端下半场，你准备好上场了吗？/</id>
-    <published>2019-02-20T08:54:53.000Z</published>
-    <updated>2019-02-26T08:53:00.819Z</updated>
-    
-    <summary type="html">
-    
-      当下移动端程序员普遍存在的问题时
     
     </summary>
     
@@ -317,26 +297,6 @@
   </entry>
   
   <entry>
-    <title>长投学堂训练营学习第八课：理财，是一辈子的修行</title>
-    <link href="http://yoursite.com/2019/01/28/%E9%95%BF%E6%8A%95%E5%AD%A6%E5%A0%82%E8%AE%AD%E7%BB%83%E8%90%A5%E5%AD%A6%E4%B9%A0%E7%AC%AC%E5%85%AB%E8%AF%BE%EF%BC%9A%E7%90%86%E8%B4%A2%EF%BC%8C%E6%98%AF%E4%B8%80%E8%BE%88%E5%AD%90%E7%9A%84%E4%BF%AE%E8%A1%8C/"/>
-    <id>http://yoursite.com/2019/01/28/长投学堂训练营学习第八课：理财，是一辈子的修行/</id>
-    <published>2019-01-28T00:30:16.000Z</published>
-    <updated>2019-01-29T01:04:53.098Z</updated>
-    
-    <summary type="html">
-    
-      长投学堂训练营学习第八课笔记
-    
-    </summary>
-    
-      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="长投学堂训练营" scheme="http://yoursite.com/tags/%E9%95%BF%E6%8A%95%E5%AD%A6%E5%A0%82%E8%AE%AD%E7%BB%83%E8%90%A5/"/>
-    
-  </entry>
-  
-  <entry>
     <title>长投学堂训练营0128晨读：死工资，正在拖垮我们</title>
     <link href="http://yoursite.com/2019/01/28/%E9%95%BF%E6%8A%95%E5%AD%A6%E5%A0%82%E8%AE%AD%E7%BB%83%E8%90%A50128%E6%99%A8%E8%AF%BB%EF%BC%9A%E6%AD%BB%E5%B7%A5%E8%B5%84%EF%BC%8C%E6%AD%A3%E5%9C%A8%E6%8B%96%E5%9E%AE%E6%88%91%E4%BB%AC/"/>
     <id>http://yoursite.com/2019/01/28/长投学堂训练营0128晨读：死工资，正在拖垮我们/</id>
@@ -353,6 +313,26 @@
     
     
       <category term="长投学堂训练营晨读" scheme="http://yoursite.com/tags/%E9%95%BF%E6%8A%95%E5%AD%A6%E5%A0%82%E8%AE%AD%E7%BB%83%E8%90%A5%E6%99%A8%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>长投学堂训练营学习第八课：理财，是一辈子的修行</title>
+    <link href="http://yoursite.com/2019/01/28/%E9%95%BF%E6%8A%95%E5%AD%A6%E5%A0%82%E8%AE%AD%E7%BB%83%E8%90%A5%E5%AD%A6%E4%B9%A0%E7%AC%AC%E5%85%AB%E8%AF%BE%EF%BC%9A%E7%90%86%E8%B4%A2%EF%BC%8C%E6%98%AF%E4%B8%80%E8%BE%88%E5%AD%90%E7%9A%84%E4%BF%AE%E8%A1%8C/"/>
+    <id>http://yoursite.com/2019/01/28/长投学堂训练营学习第八课：理财，是一辈子的修行/</id>
+    <published>2019-01-28T00:30:16.000Z</published>
+    <updated>2019-01-29T01:04:53.098Z</updated>
+    
+    <summary type="html">
+    
+      长投学堂训练营学习第八课笔记
+    
+    </summary>
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="长投学堂训练营" scheme="http://yoursite.com/tags/%E9%95%BF%E6%8A%95%E5%AD%A6%E5%A0%82%E8%AE%AD%E7%BB%83%E8%90%A5/"/>
     
   </entry>
   
@@ -413,6 +393,26 @@
     
     
       <category term="长投学堂训练营晨读" scheme="http://yoursite.com/tags/%E9%95%BF%E6%8A%95%E5%AD%A6%E5%A0%82%E8%AE%AD%E7%BB%83%E8%90%A5%E6%99%A8%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跟钱钱学理财第十课：你的生活因此改变</title>
+    <link href="http://yoursite.com/2019/01/26/%E8%B7%9F%E9%92%B1%E9%92%B1%E5%AD%A6%E7%90%86%E8%B4%A2%E7%AC%AC%E5%8D%81%E8%AF%BE%EF%BC%9A%E4%BD%A0%E7%9A%84%E7%94%9F%E6%B4%BB%E5%9B%A0%E6%AD%A4%E6%94%B9%E5%8F%98/"/>
+    <id>http://yoursite.com/2019/01/26/跟钱钱学理财第十课：你的生活因此改变/</id>
+    <published>2019-01-26T01:30:16.000Z</published>
+    <updated>2019-01-18T14:16:41.357Z</updated>
+    
+    <summary type="html">
+    
+      跟钱钱学理财第十课笔记
+    
+    </summary>
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="跟钱钱学理财" scheme="http://yoursite.com/tags/%E8%B7%9F%E9%92%B1%E9%92%B1%E5%AD%A6%E7%90%86%E8%B4%A2/"/>
     
   </entry>
   
